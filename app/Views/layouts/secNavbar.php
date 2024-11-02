@@ -1,7 +1,8 @@
 <section class="relative lg:sticky lg:top-0 container-navbar">
     <nav class="absolute top-full w-3/4 h-screen bg-bgColor shadow-md pt-4 lg:pt-0 lg:pl-24 lg:h-auto lg:sticky lg:top-0 lg:left-0 lg:w-full navbar">
         <ul class="lg:flex">
-            <li class="li-links"><a class="block link" href="<?= base_url('/') ?>">Beranda</a></li>
+            <img class="hidden lg:block lg:w-1/5" src="<?= base_url('images/icons/logo2.svg') ?>" alt="">
+            <li class="lg:ml-10 li-links"><a class="block link" href="<?= base_url('/') ?>">Beranda</a></li>
             <li id="dropdown" class="lg:cursor-pointer lg:relative li-links">
                 <div class="flex items-center justify-between link lg:justify-normal">Profil Sekolah
                     <svg class="text-lg" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">

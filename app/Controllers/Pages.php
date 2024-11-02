@@ -11,6 +11,7 @@ class Pages extends BaseController
         ];
 
         echo view('layouts/mainHeader', $data);
+        echo view('layouts/header');
         echo view('layouts/navbar');
         echo view('pages/index');
         echo view('layouts/footer');
@@ -59,7 +60,8 @@ class Pages extends BaseController
         ];
 
         echo view('layouts/mainHeader', $data);
-        echo view('layouts/navbar');
+        echo view('layouts/secHeader');
+        echo view('layouts/secNavbar');
         echo view('pages/civitasAkademik');
         echo view('layouts/footer');
     }

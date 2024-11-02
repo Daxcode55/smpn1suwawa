@@ -8,31 +8,58 @@ dropdown.addEventListener("click", () => {
   }
 });
 
-
-let hamburger = document.querySelector('#hamburgerMenu');
+let hamburger = document.querySelector("#hamburgerMenu");
 let navbar = document.querySelector(".navbar");
 hamburger.onclick = () => {
   navbar.classList.toggle("active");
-}
+};
 
 let containerSliders = document.querySelector(".slideShow");
 
-window.onscroll = () => {
-  if (window.innerWidth > 1024) {
-    if (window.pageYOffset >= 149) {
-      if (!navbar.classList.contains("navsticky")) {
-        navbar.classList.add("navsticky");
-        containerSliders.style.marginTop = "4rem";
-      }
-    } else {
-      if (navbar.classList.contains("navsticky")) {
-        navbar.classList.remove("navsticky");
-        containerSliders.style.marginTop = "0";
-      }
-    }
-  }
-};
+// window.addEventListener('scroll', () => {
+//   const distanceFromViewportTop = navbar.getBoundingClientRect().top;
+//   console.log(distanceFromViewportTop);
 
+//   if (distanceFromViewportTop <= 0) {
+//     navbar.style.backgroundColor = "red";
+//   } else {
+//     navbar.style.backgroundColor = "";
+//   }
+// });
+
+// window.addEventListener('scroll', () => {
+//   if (window.innerWidth > 1024) {
+//     const distanceFromViewportTop = navbar.getBoundingClientRect().top;
+
+//     if (distanceFromViewportTop <= 0) {
+//       if (!navbar.classList.contains("sticky")) {
+//         navbar.classList.add("sticky");
+//         containerSliders.style.marginTop = "4rem";
+//       }
+//     } else {
+//       if (navbar.classList.contains("sticky")) {
+//         navbar.classList.remove("sticky");
+//         containerSliders.style.marginTop = "0";
+//       }
+//     }
+//   }
+// });
+
+// window.onscroll = () => {
+//   if (window.innerWidth > 1024) {
+//     if (window.pageYOffset >= 169) {
+//       if (!navbar.classList.contains("navsticky")) {
+//         navbar.classList.add("navsticky");
+//         containerSliders.style.marginTop = "4rem";
+//       }
+//     } else {
+//       if (navbar.classList.contains("navsticky")) {
+//         navbar.classList.remove("navsticky");
+//         containerSliders.style.marginTop = "0";
+//       }
+//     }
+//   }
+// };
 
 let slideIndex = 0;
 let slides = document.querySelectorAll(".slideshow-item");

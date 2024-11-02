@@ -140,6 +140,10 @@ header {
   display: none;
 }
 
+.container-navbar {
+  z-index: 999999;
+}
+
 @media only screen and (min-width: 1024px) {
   header {
     z-index: 9999;
@@ -154,23 +158,23 @@ header {
     border-bottom: none;
   }
 
-  .navbar {
-    position: relative;
-    width: 100%;
-    top: 0;
-    left: 0;
-    transition: all 0.3s ease;
+  .container-navbar {
+    /* position: sticky; */
+    /* width: 100%; */
+    /* top: 0; */
+    /* left: 0; */
+    /* transition: all 0.3s ease; */
     z-index: 999999;
   }
 
-  .navbar.navsticky {
+  /* .navbar.navsticky {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
     z-index: 99999;
-  }
+  } */
 
   .link {
     border-bottom: none;
@@ -255,6 +259,10 @@ header {
 
   .col-desc-content .desc-img p {
     font-size: 1rem;
+  }
+
+  .img-secnav {
+    /* max-width: 14%; */
   }
 }
 
