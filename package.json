@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./src/css/style.css -o ./public/styles/output.css --watch"
+    "build": "npx tailwindcss -i ./public/css/style.css -o ./public/styles/output.css --watch"
   },
   "keywords": [],
   "author": "",

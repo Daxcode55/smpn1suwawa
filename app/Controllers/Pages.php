@@ -24,7 +24,8 @@ class Pages extends BaseController
         ];
 
         echo view('layouts/mainHeader', $data);
-        echo view('layouts/navbar');
+        echo view('layouts/secHeader');
+        echo view('layouts/secNavbar');
         echo view('pages/sambutan');
         echo view('layouts/footer');
     }
@@ -36,7 +37,8 @@ class Pages extends BaseController
         ];
 
         echo view('layouts/mainHeader', $data);
-        echo view('layouts/navbar');
+        echo view('layouts/secHeader');
+        echo view('layouts/secNavbar');
         echo view('pages/visiMisi');
         echo view('layouts/footer');
     }
@@ -48,7 +50,8 @@ class Pages extends BaseController
         ];
 
         echo view('layouts/mainHeader', $data);
-        echo view('layouts/navbar');
+        echo view('layouts/secHeader');
+        echo view('layouts/secNavbar');
         echo view('pages/organisasi');
         echo view('layouts/footer');
     }
@@ -63,6 +66,19 @@ class Pages extends BaseController
         echo view('layouts/secHeader');
         echo view('layouts/secNavbar');
         echo view('pages/civitasAkademik');
+        echo view('layouts/footer');
+    }
+
+    public function galery()
+    {
+        $data = [
+            "title" => "Gallery - SMPN 1 SUWAWA"
+        ];
+
+        echo view('layouts/mainHeader', $data);
+        echo view('layouts/secHeader');
+        echo view('layouts/secNavbar');
+        echo view('pages/galery');
         echo view('layouts/footer');
     }
 }

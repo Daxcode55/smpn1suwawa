@@ -22,6 +22,10 @@ module.exports = {
 
       borderRadius : {
         custom : '100px 100px 0 0'
+      },
+
+      backgroundImage: {
+        'bgSection': "url('../images/img/smp1.jpg')"
       }
     },
   },

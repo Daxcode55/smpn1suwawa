@@ -18,7 +18,7 @@
                 </div>
             </li>
 
-            <li class="li-links"><a class="block link" href="">Gallery</a></li>
+            <li class="li-links"><a class="block link" href="<?= base_url('/galery') ?>">Gallery</a></li>
             <li class="li-links"><a class="block link" href="">PPDB</a></li>
             <li class="li-links"><a class="block link" href="">Kontak Kami</a></li>
         </ul>

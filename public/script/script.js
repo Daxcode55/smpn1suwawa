@@ -16,50 +16,6 @@ hamburger.onclick = () => {
 
 let containerSliders = document.querySelector(".slideShow");
 
-// window.addEventListener('scroll', () => {
-//   const distanceFromViewportTop = navbar.getBoundingClientRect().top;
-//   console.log(distanceFromViewportTop);
-
-//   if (distanceFromViewportTop <= 0) {
-//     navbar.style.backgroundColor = "red";
-//   } else {
-//     navbar.style.backgroundColor = "";
-//   }
-// });
-
-// window.addEventListener('scroll', () => {
-//   if (window.innerWidth > 1024) {
-//     const distanceFromViewportTop = navbar.getBoundingClientRect().top;
-
-//     if (distanceFromViewportTop <= 0) {
-//       if (!navbar.classList.contains("sticky")) {
-//         navbar.classList.add("sticky");
-//         containerSliders.style.marginTop = "4rem";
-//       }
-//     } else {
-//       if (navbar.classList.contains("sticky")) {
-//         navbar.classList.remove("sticky");
-//         containerSliders.style.marginTop = "0";
-//       }
-//     }
-//   }
-// });
-
-// window.onscroll = () => {
-//   if (window.innerWidth > 1024) {
-//     if (window.pageYOffset >= 169) {
-//       if (!navbar.classList.contains("navsticky")) {
-//         navbar.classList.add("navsticky");
-//         containerSliders.style.marginTop = "4rem";
-//       }
-//     } else {
-//       if (navbar.classList.contains("navsticky")) {
-//         navbar.classList.remove("navsticky");
-//         containerSliders.style.marginTop = "0";
-//       }
-//     }
-//   }
-// };
 
 let slideIndex = 0;
 let slides = document.querySelectorAll(".slideshow-item");
@@ -103,4 +59,25 @@ function currentSlide(n) {
   clearTimeout(slideInternal);
   slideIndex = n - 1;
   showSlides();
+}
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
 }
