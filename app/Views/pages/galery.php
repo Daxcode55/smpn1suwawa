@@ -10,7 +10,7 @@
 
     <div class="px-5 sm:px-0 wraper-galery mt-7 lg:mt-24 flex flex-wrap items-center justify-center gap-6 lg:flex-row lg:gap-12">
         <div class="w-full sm:w-11/12 md:w-96 lg:w-96 card">
-            <img id="myImg" class="w-full h-auto rounded-t-lg" src="<?= base_url('images/img/smp1.jpg') ?>" alt="Avatar"
+            <img id="myImg" class="w-full h-auto rounded-t-lg" src="<?= base_url('images/img/gambar 1.jpg') ?>" alt="Avatar"
                 style="width: 100%" />
             <div class="py-3 px-4 container bg-bgColor rounded-b-lg">
                 <p class="text-base">kegiatan belajar di dalam kelas</p>
@@ -57,9 +57,9 @@
         </div>
 
         <!-- modal img -->
-        <div id="myModal" class="hidden fixed pt-28 left-0 top-0 w-full h-full overflow-auto  modal">
-            <span class="absolute top-4 right-9 text-bgColor text-5xl font-bold duration-75 close">&times;</span>
-            <img class="m-auto block w-4/5 max-w-2xl modal-content" id="img01">
-        </div>
+    </div>
+    <div id="myModal" class="hidden fixed pt-28 left-0 top-0 w-full h-full overflow-auto  modal">
+        <span class="absolute top-4 right-9 text-bgColor text-5xl font-bold duration-75 close">&times;</span>
+        <img class="m-auto block w-4/5 max-w-2xl modal-content" id="img01">
     </div>
 </section>

@@ -1,5 +1,5 @@
-<section class="relative lg:sticky lg:top-0 container-navbar">
-    <nav class="absolute top-full w-3/4 h-screen bg-bgColor shadow-md pt-4 lg:pt-0 lg:pl-24 lg:h-auto lg:sticky lg:top-0 lg:left-0 lg:w-full navbar">
+<section class="lg:sticky lg:top-0 container-navbar">
+    <nav class="fixed w-3/4 h-screen bg-bgColor shadow-md pt-4 lg:pt-0 lg:pl-24 lg:h-auto lg:sticky lg:top-0 lg:left-0 lg:w-full navbar">
         <ul class="lg:flex">
             <li class="li-links"><a class="block link" href="<?= base_url('/') ?>">Beranda</a></li>
             <li id="dropdown" class="lg:cursor-pointer lg:relative li-links">

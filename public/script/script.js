@@ -24,6 +24,9 @@ let rangeBar = document.querySelector(".rangeTime");
 let slideInternal;
 
 function showSlides() {
+
+  if (!slides.length || !dots.length || !rangeBar) return;
+
   rangeBar.classList.remove("active");
   void rangeBar.offsetWidth;
   rangeBar.classList.add("active");
@@ -62,22 +65,28 @@ function currentSlide(n) {
 }
 
 
-// Get the modal
-var modal = document.getElementById("myModal");
+let modal = document.getElementById("myModal");
+let images = document.querySelectorAll("#myImg");
+let modalImg = document.getElementById("img01");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
+if(images) {
+  // images.onclick = function(){
+  //   modal.style.display = "block";
+  //   modalImg.src = this.src;
+  // }
 
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
+  images.forEach((img) => {
+    img.onclick = () => {
+      modal.style.display = "block";
+      modalImg.src = img.src;
+    }
+  })
 }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
+if(span) { 
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
 }

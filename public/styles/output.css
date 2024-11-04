@@ -980,6 +980,11 @@ video {
   border-color: rgb(82 142 164 / var(--tw-border-opacity));
 }
 
+.border-red-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(185 28 28 / var(--tw-border-opacity));
+}
+
 .bg-bgColor {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1338,6 +1343,7 @@ header {
 .navbar {
   left: -75%;
   transition: 0.5s;
+  z-index: 99999999;
 }
 
 .navbar.active {
