@@ -1,4 +1,4 @@
-<footer class="shadow-[0px_-1px_5px_0px_rgba(122,122,122,0.75)]">
+<footer class="shadow-[0px_-1px_5px_0px_rgba(122,122,122,0.75)] mt-24">
     <div class="px-7 md:border-b md:border-b-lineColor md:flex md:gap-3 md:justify-center md:px-10 lg:py-10">
         <div class="flex pb-3 pt-5 border-b border-lineColor md:justify-center md:border-b-0 md:w-1/3">
             <i class="fa-solid fa-location-dot text-3xl text-primary"></i>

@@ -12,3 +12,5 @@ $routes->get('/visi-dan-misi', 'pages::visiMisi');
 $routes->get('/struktur-organisasi', 'pages::organisasi');
 $routes->get('/civitas-akademik', 'pages::akademik');
 $routes->get('/galery', 'pages::galery');
+$routes->get('/ppdb', 'pages::ppdb');
+$routes->get('/contact', 'pages::contact');

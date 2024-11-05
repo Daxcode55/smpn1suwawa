@@ -183,6 +183,20 @@ header {
   cursor: pointer;
 }
 
+.modal-box {
+  z-index: 99999999999;
+  background-color: rgba(255, 255, 255, 0.321);
+}
+
+.modal-box2 {
+  z-index: 99999999999;
+  background-color: rgba(255, 255, 255, 0.321);
+}
+
+.wraper-form .wrap-input.bot {
+  margin-top: 1.5rem;
+}
+
 @media only screen and (min-width: 1024px) {
   header {
     z-index: 9999;
@@ -300,8 +314,8 @@ header {
     font-size: 1rem;
   }
 
-  .img-secnav {
-    /* max-width: 14%; */
+  .form-desc {
+    width: 30%;
   }
 }
 

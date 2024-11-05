@@ -81,4 +81,30 @@ class Pages extends BaseController
         echo view('pages/galery');
         echo view('layouts/footer');
     }
+
+    public function ppdb()
+    {
+        $data = [
+            "title" => "PPDB - SMPN 1 SUWAWA"
+        ];
+
+        echo view('layouts/mainHeader', $data);
+        echo view('layouts/secHeader');
+        echo view('layouts/secNavbar');
+        echo view('pages/ppdb');
+        echo view('layouts/footer');
+    }
+
+    public function contact()
+    {
+        $data = [
+            "title" => "Contact - SMPN 1 SUWAWA"
+        ];
+
+        echo view('layouts/mainHeader', $data);
+        echo view('layouts/secHeader');
+        echo view('layouts/secNavbar');
+        echo view('pages/contact');
+        echo view('layouts/footer');
+    }
 }

@@ -68,6 +68,7 @@ function currentSlide(n) {
 let modal = document.getElementById("myModal");
 let images = document.querySelectorAll("#myImg");
 let modalImg = document.getElementById("img01");
+let span = document.getElementsByClassName("close")[0];
 
 if(images) {
   // images.onclick = function(){
@@ -83,10 +84,28 @@ if(images) {
   })
 }
 
-let span = document.getElementsByClassName("close")[0];
-
 if(span) { 
   span.onclick = function() { 
     modal.style.display = "none";
   }
 }
+
+
+let modalParent = document.querySelector(".modal-box");
+let modalParent2 = document.querySelector(".modal-box2");
+
+function showModal() {
+  document.querySelector(".modal-box").style.display = "block";
+}
+
+modalParent.addEventListener("click", () => {
+  document.querySelector(".modal-box").style.display = "none";
+});
+
+function showModal2() {
+  document.querySelector(".modal-box2").style.display = "block";
+}
+
+modalParent2.addEventListener("click", () => {
+  document.querySelector(".modal-box2").style.display = "none";
+});
