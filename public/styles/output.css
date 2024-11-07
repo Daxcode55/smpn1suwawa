@@ -1068,6 +1068,11 @@ video {
   background-color: rgb(234 234 234 / var(--tw-bg-opacity));
 }
 
+.bg-yellow-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(161 98 7 / var(--tw-bg-opacity));
+}
+
 .bg-bgSection {
   background-image: url('../images/img/smp1.jpg');
 }
@@ -2100,10 +2105,6 @@ header {
 
   .lg\:justify-center {
     justify-content: center;
-  }
-
-  .lg\:justify-between {
-    justify-content: space-between;
   }
 
   .lg\:justify-around {
