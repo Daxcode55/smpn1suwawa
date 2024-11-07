@@ -16,4 +16,6 @@
         Wassalamualaikum warahmatullahi wabarakatuh.
         Salam hangat,
         Kepala Sekolah SMPN 1 Suwawa</h4>
+
+        <h1 class="text-4xl bg-blue-700">rifki ganteng</h1>
 </section>
