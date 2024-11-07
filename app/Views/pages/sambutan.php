@@ -7,7 +7,7 @@
 
         SMPN 1 Suwawa berkomitmen untuk menjadi lembaga pendidikan yang unggul dalam memberikan pembelajaran berkualitas serta menciptakan generasi muda yang berkarakter, berintegritas, dan siap menghadapi tantangan global. Kami percaya bahwa setiap anak memiliki potensi besar untuk berkembang, dan di sini, kami berusaha untuk membantu mereka mengoptimalkan potensi tersebut melalui proses pendidikan yang komprehensif dan didukung oleh berbagai fasilitas yang memadai.
 
-        Sebagai salah satu sekolah menengah pertama di Kabupaten [Nama Kabupaten], kami bangga bisa memberikan kontribusi bagi masyarakat sekitar dengan mencetak lulusan yang berprestasi, baik dalam bidang akademik maupun non-akademik. Kami terus berupaya untuk meningkatkan kualitas pendidikan melalui berbagai program inovatif dan kegiatan ekstrakurikuler yang mendukung pengembangan karakter siswa.
+        Sebagai salah satu sekolah menengah pertama di Kabupaten [Bone Bolango], kami bangga bisa memberikan kontribusi bagi masyarakat sekitar dengan mencetak lulusan yang berprestasi, baik dalam bidang akademik maupun non-akademik. Kami terus berupaya untuk meningkatkan kualitas pendidikan melalui berbagai program inovatif dan kegiatan ekstrakurikuler yang mendukung pengembangan karakter siswa.
 
         Saya berharap situs ini dapat menjadi media informasi dan komunikasi yang efektif antara sekolah dengan masyarakat luas, orang tua, serta para siswa. Melalui situs ini, kami akan selalu berupaya menyampaikan informasi terkini mengenai berbagai kegiatan, prestasi, dan program-program unggulan di SMPN 1 Suwawa. Semoga melalui kolaborasi antara guru, siswa, orang tua, dan masyarakat, kita dapat membawa SMPN 1 Suwawa menuju masa depan yang lebih gemilang.
 
