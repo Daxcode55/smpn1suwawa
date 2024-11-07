@@ -1,6 +1,6 @@
-<section class="pt-20 lg:pt-0">
+<section class="pt-20 lg:pt-0 bg-red-700">
     <h1>Sambutan kepala sekolah</h1>
-    <h4>Assalamualaikum warahmatullahi wabarakatuh.
+    <h4 class="bg-slate-950">Assalamualaikum warahmatullahi wabarakatuh.
 Salam sejahtera bagi kita semua.
 
 Puji dan syukur kita panjatkan kehadirat Allah SWT yang senantiasa melimpahkan rahmat dan karunia-Nya kepada kita semua. Dengan segala kerendahan hati, saya, selaku Kepala Sekolah SMPN 1 Suwawa, menyambut kehadiran Bapak/Ibu, serta seluruh siswa-siswi yang mengunjungi situs resmi SMPN 1 Suwawa.
