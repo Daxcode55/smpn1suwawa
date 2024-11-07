@@ -29,6 +29,14 @@
             </div>
 
             <div class="hidden lg:flex justify-center items-center gap-7">
+                <div class="hidden lg:flex lg:text-textColor lg:mr-16">
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <a class="hover:text-primary ml-3" href="">Masuk</a>
+                </div>
+
                 <a href="#"><i class="fab fa-facebook text-2xl text-slate-800"></i></a>
                 <a href="#"><i class="fab fa-instagram text-2xl text-slate-800"></i></a>
                 <a href="#"><i class="fab fa-youtube text-2xl text-slate-800"></i></a>

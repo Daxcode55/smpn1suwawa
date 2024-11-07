@@ -1,5 +1,5 @@
 <section class="lg:sticky lg:top-0 container-navbar">
-    <nav class="fixed w-3/4 h-screen bg-bgColor shadow-md pt-4 lg:pt-0 lg:pl-24 lg:h-auto lg:sticky lg:top-0 lg:left-0 lg:w-full navbar">
+    <nav class="lg:flex lg:justify-between lg:items-center fixed w-3/4 h-screen bg-bgColor shadow-md pt-4 lg:pt-0 lg:pl-24 lg:h-auto lg:sticky lg:top-0 lg:left-0 lg:w-full navbar">
         <ul class="lg:flex">
             <li class="li-links"><a class="block link" href="<?= base_url('/') ?>">Beranda</a></li>
             <li id="dropdown" class="lg:cursor-pointer lg:relative li-links">
@@ -21,7 +21,14 @@
             <li class="li-links"><a class="block link" href="<?= base_url('/ppdb') ?>">PPDB</a></li>
             <li class="li-links"><a class="block link" href="<?= base_url('/contact') ?>">Kontak Kami</a></li>
         </ul>
+
+        <div class="flex gap-3 text-textColor mr-16">
+            <div>
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <a class="hover:text-primary" href="">Masuk</a>
+        </div>
     </nav>
-    <!-- </header> -->
-    <!-- header end -->
+
 </section>
