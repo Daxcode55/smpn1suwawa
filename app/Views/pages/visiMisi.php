@@ -1,14 +1,14 @@
 <section class="pt-20 lg:pt-0 w-8/12 pl-5">
-    <h1>Visi dan Misi</h1>
-    <h4>
-        <strong> Visi </strong>
-    </h4>
-    <p class="normal-case pl-6">TERWUJUDNYA SEKOLAH SEBAGAI PUSAT PENDIDIKAN BERWAWASAN LINGKUNGAN YANG MAMPU MEMBENTUK MANUSIA YANG UNGGUL DALAM BIDANG AKADEMIK DAN NON AKADEMIK DILANDASI IMTAQ IPTEK, DAN SENI SERTA BERBUDAYA LINGKUNGAN YANG SEHAT</p>
+    <h1 class="font-mono text-3xl text-justify py-4">Visi dan Misi</h1>
+    <h2 class="text-xl font-semibold lg:text-xL lg:mt-7">Visi</h2>
 
-    <h4>
-        <strong> Misi </strong>
-    </h4>
-    <ol class="list-decimal">
+    <p class="normal-case text-justify pl-4">
+        TERWUJUDNYA SEKOLAH SEBAGAI PUSAT PENDIDIKAN BERWAWASAN LINGKUNGAN YANG MAMPU MEMBENTUK MANUSIA YANG UNGGUL DALAM BIDANG AKADEMIK DAN NON AKADEMIK DILANDASI IMTAQ IPTEK, DAN SENI SERTA BERBUDAYA LINGKUNGAN YANG SEHAT
+    </p>
+
+    <h2 class="text-xl font-semibold lg:text-xL lg:mt-9 py-1.5">Misi</h2>
+
+    <ol class="list-decimal pl-4 text-justify">
         <li>MENINGKATKAN KARAKTER PESERTA DIDIK YANG BERIMAN, BERTAQWA KEPADA TUNAN YANG MAHA ESA DAN BERAKHLAK MULIA</li>
         <li>MENUMBUHKAN SEMANGAT GOTONG ROYONG PADA PESERTA DIDIK</li>
         <li>MENGEMBANGKAN KARAKTER PESERTA DIDIK YANG MANDIRI, KREATIF DAN BERNALAR KRITIS SEHINGGA MAMPU MENGHASILKAN IDE DAN KETERAMPILAN YANG INOVATIF</li>
